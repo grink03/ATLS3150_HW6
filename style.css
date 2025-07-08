@@ -1,0 +1,18 @@
+h1, h2 {
+    color: rgb(1, 207, 90);
+    }
+    p {
+    color: gray;
+    font-style: italic;
+    }
+    ul {
+    border: 2px solid rgb(255, 165, 0);
+    }
+    ol {
+    border: 2px solid purple;
+    }
+    h1 {
+      background-color: rgb(1, 15, 44);
+    }
+    
+    
