@@ -27,10 +27,11 @@ label {
 }
 select:focus, select:active, input:focus, input:active, input:focus + label, input:active + label, label[for]:focus, label[for]:active {
 	color: #FFF !important;
-	background-color: #e5ba39 !important;}
+	background-color: #12f6cc !important;}
 
 #formcol1 li {   
 	list-style:none;
+	color: #12f6cc
 }
 
 
