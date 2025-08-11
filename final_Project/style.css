@@ -21,10 +21,12 @@ body {
   background-color: #fff;
   padding: 10px;
 }
+
 .navbar ul {
   list-style: none;
   display: flex;
   margin-left: auto;
+  color:#000;
   gap: 1rem;
 }
 
