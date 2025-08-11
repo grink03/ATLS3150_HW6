@@ -5,7 +5,6 @@ body {
     background-color: #d8d8d8;
     color: #222;
 }
-  
   .skip-link {
     position: absolute;
     top: -40px;
@@ -82,7 +81,7 @@ body {
     padding: 20px;
   }
   .btn-secondary {
-    background: #ff9615;
+    background: #6d287d;
     color: #FFFFFF;
     padding: 10px 16px;
     border: none;
