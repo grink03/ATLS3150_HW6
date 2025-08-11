@@ -1,93 +1,100 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>NAMI Boulder County - Homepage</title>
-  <link rel="stylesheet" href="style.css" />
-</head>
-<body>
-  <a href="#main-content" class="skip-link">Skip to main content</a>
-  <header>
-    <nav aria-label="Main navigation" class="navbar">
-        <a href="#" class="nami-logo" aria-label="NAMI Logo"><img src="NAMI_logo.png" alt = "NAMI Logo" style="width:42px;height:42px;"></a>
-        <a href="#" class="btn-primary" aria-label="In Crisis button">In Crisis</a>
-      <a href="#" class="home-icon" aria-label="Home">
-        <!--emoji placeholder because fuck css icons but idk how it'll look-->
-        <span aria-hidden="true">Home</span>
-      </a>
-      <ul>
-        <li><a href="#about">About NAMI</a></li>
-        <li><a href="#resources">Resources</a></li>
-        <li><a href="#support-education">Support and Education</a></li>
-        <li><a href="#contact">Contact Us</a></li>
-      </ul>
-    </nav>
-  </header>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>NAMI Boulder County - Homepage</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <a href="#main-content" class="skip-link">Skip to main content</a>
+    <header>
+      <nav aria-label="Main navigation" class="navbar">
+        <a href="#" class="nami-logo" aria-label="NAMI Logo"
+          ><img
+            src="NAMI_logo.png"
+            alt="NAMI Logo"
+            style="width: 42px; height: 42px"
+        /></a>
+        <a href="#" class="btn-primary" aria-label="In Crisis button"
+          >In Crisis</a
+        >
+        <a href="#" class="home-icon" aria-label="Home">
+          <!--emoji placeholder because fuck css icons but idk how it'll look-->
+          <span aria-hidden="true">Home</span>
+        </a>
+        <ul>
+          <li><a href="#about">About NAMI</a></li>
+          <li><a href="#resources">Resources</a></li>
+          <li><a href="#support-education">Support and Education</a></li>
+          <li><a href="#contact">Contact Us</a></li>
+        </ul>
+      </nav>
+    </header>
 
-  <main id="main-content">
-    <!-- Hero section -->
-    <section class="hero" aria-labelledby="hero-heading">
-      <h1 id="hero-heading">You Are Not Alone</h1>
-      <p>Support, Education & Advocacy for Boulder County</p>
-      <button type="button" class="btn-primary">Get Help</button>
-    </section>
+    <main id="main-content">
+      <!-- Hero section -->
+      <section class="hero" aria-labelledby="hero-heading">
+        <h1 id="hero-heading">You Are Not Alone</h1>
+        <p>Support, Education & Advocacy for Boulder County</p>
+        <button type="button" class="btn-primary">Get Help</button>
+      </section>
 
-    <!-- Service cards no heroicons smh-->
-    <section aria-label="Service categories" class="card-grid">
-      <article>
-        <h2><span aria-hidden="true"></span> Support</h2>
-        <a href="#support">Learn More</a>
-      </article>
-      <article>
-        <h2><span aria-hidden="true"></span> Education & Classes</h2>
-        <a href="#education">Learn More</a>
-      </article>
-      <article>
-        <h2><span aria-hidden="true"></span> Resources</h2>
-        <a href="#resources">Learn More</a>
-      </article>
-      <article>
-        <h2><span aria-hidden="true"></span> Upcoming Events</h2>
-        <a href="#events">Learn More</a>
-      </article>
-    </section>
+      <!-- Service cards no heroicons smh-->
+      <section aria-label="Service categories" class="card-grid">
+        <article>
+          <h2><span aria-hidden="true"></span> Support</h2>
+          <a href="#support">Learn More</a>
+        </article>
+        <article>
+          <h2><span aria-hidden="true"></span> Education & Classes</h2>
+          <a href="#education">Learn More</a>
+        </article>
+        <article>
+          <h2><span aria-hidden="true"></span> Resources</h2>
+          <a href="#resources">Learn More</a>
+        </article>
+        <article>
+          <h2><span aria-hidden="true"></span> Upcoming Events</h2>
+          <a href="#events">Learn More</a>
+        </article>
+      </section>
 
-    <!-- Support and crisis info -->
-    <section class="info-section">
-      <div>
-        <h2>Support Groups</h2>
-        <p>Find a group that fits your needs and connect with others.</p>
-        <a href="#support-groups">Learn More…</a>
+      <!-- Support and crisis info -->
+      <section class="info-section">
+        <div>
+          <h2>Support Groups</h2>
+          <p>Find a group that fits your needs and connect with others.</p>
+          <a href="#support-groups">Learn More…</a>
+        </div>
+        <div>
+          <h2>Crisis Resources</h2>
+          <p>Access immediate help and emergency resources.</p>
+          <a href="#crisis-resources">Learn More…</a>
+        </div>
+      </section>
+
+      <!-- Join / Donate -->
+      <div class="action-buttons">
+        <button type="button" class="btn-secondary">Join Now</button>
+        <button type="button" class="btn-secondary">Donate Now</button>
       </div>
-      <div>
-        <h2>Crisis Resources</h2>
-        <p>Access immediate help and emergency resources.</p>
-        <a href="#crisis-resources">Learn More…</a>
-      </div>
-    </section>
+    </main>
 
-    <!-- Join / Donate -->
-    <div class="action-buttons">
-      <button type="button" class="btn-secondary">Join Now</button>
-      <button type="button" class="btn-secondary">Donate Now</button>
-    </div>
-  </main>
-
-  <!-- Footer -->
-  <footer>
-    <p>Crisis Hotline <a href="tel:1800XXXXXXX">1-800-XXX-XXXX</a></p>
-    <nav aria-label="Social media">
-      <a href="#" aria-label="Instagram">
-        <span aria-hidden="true">Instagram</span>
-      </a>
-      <a href="#" aria-label="Facebook">
-        <span aria-hidden="true">Twitter</span>
-      </a>
-      <a href="#" aria-label="Website">
-        <span aria-hidden="true">Facebook</span>
-      </a>
-    </nav>
-  </footer>
-</body>
+    <!-- Footer -->
+    <footer>
+      <p>Crisis Hotline <a href="tel:1800XXXXXXX">1-800-XXX-XXXX</a></p>
+      <nav aria-label="Social media">
+        <a href="#" aria-label="Instagram">
+          <span aria-hidden="true">Instagram</span>
+        </a>
+        <a href="#" aria-label="Facebook">
+          <span aria-hidden="true">Twitter</span>
+        </a>
+        <a href="#" aria-label="Website">
+          <span aria-hidden="true">Facebook</span>
+        </a>
+      </nav>
+    </footer>
+  </body>
 </html>
