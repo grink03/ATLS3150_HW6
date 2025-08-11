@@ -33,21 +33,13 @@ body {
     color: #000;
   }
   
-  .in-crisis {
-    background-color: #000000;
-    color: #fff;
-    padding: 8px 12px;
-    border-radius: 8px;
-    margin-right: 10px;
-  }
-  
   .hero {
     background-color: #ddd;
     padding: 40px;
     text-align: center;
   }
   .btn-primary {
-    background: #000000;
+    background: #0070cd;
     color: #fff;
     padding: 10px 16px;
     border: none;
@@ -90,7 +82,8 @@ body {
     padding: 20px;
   }
   .btn-secondary {
-    background: #bbb;
+    background: #ff9615;
+    color: #FFFFFF;
     padding: 10px 16px;
     border: none;
     border-radius: 6px;
